@@ -2,16 +2,16 @@
 
 ## Доступ другу
 
-Создайте **приватный** репозиторий GitHub. На его странице откройте **Settings → Collaborators → Add people**, укажите GitHub-логин друга и отправьте приглашение. Друг должен принять его в своём аккаунте. После этого у каждого будет своя копия проекта и возможность отправлять изменения.
+Проект находится в [Meierbek/KFM](https://github.com/Meierbek/KFM). Откройте [настройки доступа](https://github.com/Meierbek/KFM/settings/access): **Settings → Collaborators → Add people**, укажите GitHub-логин друга и отправьте приглашение. Друг должен принять его в своём аккаунте. После этого у каждого будет своя копия проекта и возможность отправлять изменения.
 
 Приглашение и приватный репозиторий доступны на GitHub Free. Инструкция GitHub: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository
 
 ## Первый запуск на другом компьютере
 
-Понадобятся Git и Python; для разработки проверена версия **Python 3.12**. Откройте терминал в папке, где хотите сохранить проект. Замените `<URL_РЕПОЗИТОРИЯ>` ссылкой кнопки **Code → HTTPS** на GitHub:
+Понадобятся Git и Python; для разработки проверена версия **Python 3.12**. Откройте терминал в папке, где хотите сохранить проект:
 
 ```powershell
-git clone <URL_РЕПОЗИТОРИЯ> KFM
+git clone https://github.com/Meierbek/KFM.git KFM
 cd KFM
 python server.py
 ```
