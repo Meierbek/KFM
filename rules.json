@@ -1,0 +1,83 @@
+[
+  {
+    "id": "nb231_12",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 12. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "A clearly personal bag, personal cash, food or a camera-capable personal smartphone is present or used by an employee INSIDE the cashier cash-handling zone.",
+    "limitation": "Medicines, medical devices and communication devices without photo/video capability are allowed. Customer items and normal banking equipment are not employee personal items. Do not guess device capabilities or ownership.",
+    "code": "personal_items"
+  },
+  {
+    "id": "nb231_20",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 20. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "Cash from an explicitly FINISHED earlier customer operation remains outside a locked cash storage device while another customer operation starts. Cash acceptance and counting must occur in the customer's presence.",
+    "limitation": "Cash of the CURRENT customer may be on the work surface. Leaving a chair is not by itself proof of this paragraph being violated. The ownership and operation context must be visible.",
+    "code": "cash_storage"
+  },
+  {
+    "id": "nb231_19_2",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 19, подпункт 2. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "A COMPLETE acceptance operation is visibly performed without counting incoming banknotes or coins or checking authenticity.",
+    "limitation": "A cash-counting machine counts as counting. Sparse frames, hidden equipment and missing beginning/end cannot prove omission. Do not infer exact amounts or authenticity from appearance.",
+    "code": "receive_counting"
+  },
+  {
+    "id": "nb231_19_5",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 19, подпункт 5. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "A COMPLETE incoming-cash operation visibly ends without the required cashier signature and stamp on cash documents.",
+    "limitation": "Unreadable paper, off-camera actions, electronic documents and sparse sampled frames cannot prove missing signatures or stamps.",
+    "code": "cash_document"
+  },
+  {
+    "id": "nb231_19_6",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 19, подпункт 6. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "A COMPLETE incoming-cash operation visibly finishes without giving the customer a confirming document.",
+    "limitation": "Electronic confirmation, off-camera handover and sparse frames mean absence cannot be established.",
+    "code": "receipt"
+  },
+  {
+    "id": "nb231_31_4",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 31, подпункт 4, с учётом пункта 32. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "A COMPLETE outgoing-cash operation visibly hands over LOOSE banknotes without counting in the customer's presence.",
+    "limitation": "Paragraph 32 permits intact sealed banknote packs to be issued without recounting individual notes. Machines count as counting; sparse frames cannot prove omission.",
+    "code": "issue_counting"
+  },
+  {
+    "id": "nb231_31_5",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 31, подпункт 5. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "A COMPLETE outgoing-cash operation visibly ends without the required cashier signature and stamp on cash documents.",
+    "limitation": "Unreadable paper, off-camera actions, electronic documents and sparse sampled frames cannot prove missing signatures or stamps.",
+    "code": "cash_document"
+  },
+  {
+    "id": "nb231_31_6",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 31, подпункт 6. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "A COMPLETE outgoing-cash operation visibly finishes without giving the customer a confirming document.",
+    "limitation": "Electronic confirmation, off-camera handover and sparse frames mean absence cannot be established.",
+    "code": "receipt"
+  },
+  {
+    "id": "nb231_22",
+    "title": "Правила осуществления кассовых операций и операций по инкассации, постановление НБРК от 29.11.2019 № 231",
+    "section": "Пункт 22. Редакция от 16.03.2026",
+    "url": "https://adilet.zan.kz/rus/docs/V1900019680",
+    "condition": "The cashier visibly leaves the cash workstation before finishing the ongoing incoming-cash customer service, while the customer remains waiting.",
+    "limitation": "Standing, reaching, turning, using nearby equipment, staff handover, or departure after completed service is not sufficient. The provision is in the incoming cash operations section.",
+    "code": "cashier_departure"
+  }
+]

@@ -1,0 +1,3 @@
+# Optional image processing for the experimental analyzers.
+# The website and demo use Python's standard library only.
+Pillow==12.3.0

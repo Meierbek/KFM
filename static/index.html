@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#841c3d">
+  <meta name="description" content="KFM — локальная проверка кассовых операций по видео.">
+  <title>KFM — Проверка видео</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <aside class="sidebar" aria-label="Главная навигация">
+    <a class="brand" href="/" data-nav="/" aria-label="KFM — главная">
+      <span class="brand-image"><img src="/static/kfm-logo.png" alt="KFM" width="1774" height="887"></span>
+      <span class="brand-caption">Видеоконтроль кассовых операций</span>
+    </a>
+    <div class="nav-label">РАБОЧЕЕ ПРОСТРАНСТВО</div>
+    <nav>
+      <a class="nav-item active" href="/" data-nav="/" data-icon="scan">Проверка видео</a>
+      <button class="nav-item" type="button" data-action="demo-menu" data-icon="play-square">Демонстрация<span class="nav-small">DEMO</span></button>
+      <button class="nav-item" type="button" data-action="help" data-icon="book">Как это работает</button>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="local-box"><span class="local-icon" data-icon="shield"></span><div><strong>На вашем компьютере</strong><p>Видео остаются локально</p></div></div>
+      <div class="sidebar-footer"><span>KFM <span class="version">/ 01</span></span><span class="live-dot"></span><span>Локальная версия</span></div>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div class="breadcrumbs"><span>Рабочее пространство</span><span class="crumb-slash">/</span><strong id="breadcrumb">Проверка видео</strong></div>
+      <div class="topbar-right"><span class="local-pill"><span class="live-dot"></span>Локально</span><button class="help-button" type="button" data-action="help" aria-label="Помощь" data-icon="help"></button><div class="avatar" aria-label="Рабочее пространство KFM">K</div></div>
+    </header>
+    <main id="main" tabindex="-1"><div class="initial-loading"><span class="spinner"></span>Открываем KFM…</div></main>
+    <footer class="page-footer"><span>KFM · Проверка кассовых операций по видео</span><span><span class="tiny-dot"></span>Без внешних AI-сервисов</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="help-dialog" class="modal">
+    <div class="modal-heading"><span class="eyebrow">ЗНАКОМСТВО С KFM</span><button class="icon-button" data-action="close-help" aria-label="Закрыть помощь" data-icon="x"></button></div>
+    <h2>От записи к понятному результату</h2>
+    <p class="muted">KFM объединяет видео, события и подтверждающие кадры на одной странице.</p>
+    <div class="help-steps"><div><span>01</span><section><h3>Загрузите видео</h3><p>Поддерживаются MOV и MP4 до <span class="max-upload">128</span> МБ. Записи сохраняются на этом компьютере.</p></section></div><div><span>02</span><section><h3>Запустите проверку</h3><p>Когда локальная модель подключена, сервер передаёт ей запись. До подключения доступен отдельный деморежим.</p></section></div><div><span>03</span><section><h3>Проверьте события</h3><p>В результате будут тип события, время, кадры и нормативный источник. Вывод модели требует проверки человеком.</p></section></div></div>
+    <div class="notice notice-demo"><span data-icon="info"></span><p>Демонстрация использует нарисованные учебные сцены и заранее подготовленные события. Она не анализирует ваши видео.</p></div>
+    <button class="button primary full" data-action="close-help">Всё понятно<span data-icon="arrow-right"></span></button>
+  </dialog>
+  <dialog id="frame-dialog" class="modal frame-modal"><div class="frame-modal-top"><div><span class="eyebrow">КАДР СОБЫТИЯ</span><p id="frame-caption"></p></div><button class="icon-button" data-action="close-frame" aria-label="Закрыть кадр" data-icon="x"></button></div><img id="large-frame" alt="Кадр-доказательство"></dialog>
+  <noscript><div class="noscript">Для работы KFM включите JavaScript в браузере.</div></noscript>
+</body>
+</html>
